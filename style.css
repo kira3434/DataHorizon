@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #141414 0%, #141414 55%, #58CDCD 55%, #58CDCD 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#corpo{
+    width: 85%;
+    height: 90%;
+    display: flex;
+}
+.braco-esquerdo{
+    width: 45%;
+    height: 100%;
+    border: 1px solid rgb(253, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-cadastro{
+    width: 70%;
+    height: 95%;
+    border: 1px solid white;
+    padding: 0 5%;
+}
+.titulo-cadastro{
+    width: 100%;
+    height: 10%;
+    border: 1px solid white;
+    margin-bottom: 2%;
+}
+.cadastro{
+    width: 80%;
+    height: 88%;
+    border: 1px solid white;
+    padding: 0 10%;
+}
+.cadastro input{
+    width: 95%;
+    padding-left: 5%;
+    border-radius: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    background-color: #F6F6F6;
+    border: none;
+}
+.braco-direito{
+    width: 55%;
+    height: 100%;
+    border: 1px solid rgb(253, 54, 200);
+}
+.caixa-titulo{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.titulo{
+    width: 40%;
+    height: 100%;
+    border: 1px solid #131313;
+}
+.caixa-foto{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.foto{
+    width: 540px;
+    height: 540px;
+    border: 1px solid red;
+}
